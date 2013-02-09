@@ -22,3 +22,7 @@ $ git push heroku master
 
 And now your site is hosted on Heroku under the domain given (which you can easily change by following the instructions on https://devcenter.heroku.com/articles/custom-domains).
 
+
+Example site:
+http://staticsinatra.herokuapp.com/
+
