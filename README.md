@@ -14,17 +14,12 @@ How To Set up on Heroku:
 
 4. Navigate to your /StaticSinatra directory (which you are free to rename) and do the following:
 
-$ rm -rf .git
-
-$ git init
-
-$ git add .
-
-$ git commit -m "init"
-
-$ heroku create
-
-$ git push heroku master
+    $ rm -rf .git
+    $ git init
+    $ git add .
+    $ git commit -m "init"
+    $ heroku create
+    $ git push heroku master
 
 And now your site is hosted on Heroku under the domain given (which you can easily change by following the instructions on https://devcenter.heroku.com/articles/custom-domains).
 
