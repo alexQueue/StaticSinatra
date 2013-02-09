@@ -12,7 +12,7 @@ How To Set up on Heroku:
 
 3. $ heroku login
 
-4. Navigate to your /StaticSinatra directory and do the following:
+4. Navigate to your /StaticSinatra directory (which you are free to rename) and do the following:
 $ rm -rf .git
 $ git init
 $ git add .
@@ -26,3 +26,6 @@ And now your site is hosted on Heroku under the domain given (which you can easi
 Example site:
 http://staticsinatra.herokuapp.com/
 
+Why?
+=============
+Until you have thousands of hits per day, Heroku is a free alternative to a lot of hosting platforms. And while you can create amazing dynamic apps on Sinatra or Rails, many developers just need a simple static site to host their restaurant's menu or portfolio.
